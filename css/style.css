@@ -33,3 +33,6 @@ footer {
   .nav{
     font-size: 15px;
   }
+  .jumbotron{
+    background: rgba(231, 209, 209, 0.63);
+  }
