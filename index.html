@@ -8,6 +8,7 @@
     <!-- 2 lines below are to connect the HTML file to bootstrap 4.3 css stylesheet and style.css file from css folder -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- end css -->
 </head>
 <body>
     <!-- Here is a navbar from bootstrap with links to corresponding sections -->
@@ -25,14 +26,15 @@
               <a class="nav-link" href="#projects">My projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#hobby">My hobby and work</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contact">About me</a>
               </li>
           </ul>
         </div>
       </nav>
+      <!-- end navbar -->
       <!-- below is a jumbotron from bootstrap with my profile picture and link to my projects-->
       <div class="jumbotron" id="hero">
         <img src="./images/me.jpg" width="150px">
@@ -41,7 +43,9 @@
         <p>Check my projects now - click the button below!</p>
         <a class="btn btn-primary btn-lg" href="#work" role="button">My projects!</a>
       </div>
-    <section class="projects row">
+      <!-- end jumbotron -->
+      <!-- below two sections(projects and skills) contain titled cards with images of my projects, and what skills do I expect to learn during the course  -->
+    <section class="row" id="projects">
         <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
@@ -75,7 +79,7 @@
             </div>
           </div>
     </section>
-    <section class="hobby row">
+    <section class="row" id="skills">
         <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
@@ -109,5 +113,11 @@
             </div>
           </div>
     </section>
+    <!-- end sections -->
+    <!-- Contact section - email address -->
+<section id="contact">
+    <e-mail>cezary.bakula@gmail.com</e-mail>
+</section>
+<!-- end contact section -->
 </body>
 </html>
