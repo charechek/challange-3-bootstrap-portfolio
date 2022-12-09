@@ -20,16 +20,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#hero">About me <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#hero">About me<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">My projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
+                <a class="nav-link" href="#skills">My goals</a>
+              </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contact">About me</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
           </ul>
         </div>
@@ -37,87 +37,92 @@
       <!-- end navbar -->
       <!-- below is a jumbotron from bootstrap with my profile picture and link to my projects-->
       <div class="jumbotron" id="hero">
+        <div><h2>My portfolio</h2></div>
         <img src="./images/me.jpg" width="150px">
-        <p class="lead">My name is Cezary Bakula. I am beginner at front-end development. This website is my portfolio.</p>
+        <p class="lead">My name is Cezary Bakula. I am beginner at front-end development.</p>
         <hr class="my-4">
-        <p>Check my projects now - click the button below!</p>
-        <a class="btn btn-primary btn-lg" href="#work" role="button">My projects!</a>
+        <p>Check my projects now and what goals I planned to achieve- click the button below!</p>
+        <a class="btn btn-primary btn-lg" href="#projects" role="button">My projects</a>
+        <a class="btn btn-primary btn-lg" href="#skills" role="button">My goals</a>
       </div>
       <!-- end jumbotron -->
       <!-- below two sections(projects and skills) contain titled cards with images of my projects, and what skills do I expect to learn during the course  -->
-    <section class="row" id="projects">
+    <section class="row container-fluid" id="projects">
+        <div class="container-fluid"><h2>Some of the projects I made during the course:</h2></div>
         <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./images/prework.PNG" class="card-img-top" alt="First website finished on the pre-work of the course">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Prework Study guide</h5>
+              <p class="card-text">Website created on the pre-work of the course. The goal was to make a simple website with notes from the prework course.</p>
+              <a href="https://charechek.github.io/Prework-study-guide/">Pre-work study guide link</a>
             </div>
           </div>
           <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./images/horiseon.png" class="card-img-top" alt="Horiseon website finished as the homework">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Horiseon</h5>
+              <p class="card-text">The goal was fix all of the semantic issues in HTML code, consolidate CSS stylesheet,
+                add comments to images and CSS stylesheeet and debug the codes to make the website stable, responsive and accessible.</p>
+              <a href="https://charechek.github.io/horiseon-semantic/">Horiseon link</a>
             </div>
           </div>
           <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./images/portfolio.PNG" class="card-img-top" alt="First portfolio done with flexbox">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Responsive portfolio</h5>
+              <p class="card-text">The goal was to make a responsive site with my portfolio. The website had to automatically adjust view to a window size, and be properly displayed in tablets and mobile phones.</p>
+            <a href="https://charechek.github.io/Portfolio-Cezary-B/">Responsive portfolio link</a>
             </div>
           </div>
           <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./images/bootstrap-lesson.png" class="card-img-top" alt="one of the activities from introduction of the bootstrap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Bootstrap introduction</h5>
+              <p class="card-text">This website was created on the introduction lesson for the Bootstrap. it contains simple bootstrap elements.</p>
             </div>
           </div>
     </section>
-    <section class="row" id="skills">
+    <section class="row container-fluid" id="skills">
+        <div class="container-fluid"><h2>Skills I would like to learn during the course:</h2></div>
         <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./images/HTML.png" class="card-img-top" alt="HTML logo">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">I plan to gain knowledge needed to make fully responsive HTML websites.</p>
             </div>
           </div>
           <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./images/css.png" class="card-img-top" alt="CSS logo">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text">Use of CSS stylesheet is a basic knowledge. I plan to gain as much as possible, to be able modify the website whatever I like or I need.</p>
             </div>
           </div>
           <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./images/js.png" class="card-img-top" alt="JS logo">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">JS</h5>
+              <p class="card-text">Java Script is a must-have for a modern, responsive website. I want to learn, how to use it and understand, how it works.</p>
             </div>
           </div>
           <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./images/dev.PNG" class="card-img-top" alt="VScode screenshot">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Front-End Developer</h5>
+              <p class="card-text">To become a successful Front-End Developer, I need to do my own research all the time and be up-to-date with new technologies.</p>
             </div>
           </div>
     </section>
     <!-- end sections -->
     <!-- Contact section - email address -->
-<section id="contact">
-    <e-mail>cezary.bakula@gmail.com</e-mail>
+<section class="container-fluid" id="contact">
+    <e-mail><h2>cezary.bakula@gmail.com</h2></e-mail>
 </section>
 <!-- end contact section -->
 </body>
+<!-- Java script required by bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- end of JS -->
 </html>
